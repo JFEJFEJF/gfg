@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نتائج الطلاب</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>نتائج الطلاب</h1>
+        </header>
+        <main>
+            <div class="form-container">
+                <h2>إضافة نتيجة جديدة</h2>
+                <form id="resultForm">
+                    <input type="text" id="studentName" placeholder="اسم الطالب" required>
+                    <input type="text" id="studentGrade" placeholder="النتيجة" required>
+                    <button type="submit">إضافة</button>
+                </form>
+            </div>
+            <div class="results-container">
+                <h2>النتائج</h2>
+                <table id="resultsTable">
+                    <thead>
+                        <tr>
+                            <th>اسم الطالب</th>
+                            <th>النتيجة</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- النتائج ستظهر هنا -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
